@@ -8,31 +8,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <h1 class="nome">Linguagens de desenvolvimento web</h1>
+<body bgcolor="#fff">
+  <header class="top-bar">
+    <h1>Linguagens de desenvolvimento web</h1>
+  </header>
+  
   <p class="intro">Introdução: </p>
   <p class="resumo">Se você é um iniciante na área ou deseja seguir carreira como desenvolvedor,</p>
-     <p class="resumo">precisa saber que o Desenvolvimento Web é dividido,</p>
-     <p class="resumo">basicamente, em dois grupos: desenvolvimento de front-end e desenvolvimento de back-end.</p>
-     <p class="resumo">Cada um deles possui suas próprias características e apresentam conjuntos distintos de ferramentas e tecnologias.</p>
-    <p class="resumo">Por exemplo, quando mencionamos o desenvolvimento de front-end, o HTML, CSS e Javascript sempre estão relacionados.</p>
-  <section class="butos">
-    <div class="buto">
-      <!-- Botão para abrir o modal -->
-      <button id="openModal" class="buto">HTML</button>
-    </div>
-    <div class="buto2">
-      <!-- Botão para abrir o modal -->
-      <button id="openModal2" class="buto">CSS</button>
-    </div>
-    <div class="buto3">
-      <!-- Botão para abrir o modal -->
-      <button id="openModal3" class="buto">JAVASCRIPT</button>
-    </div>
-  </section>
-  <!-- O modal -->
+  <p class="resumo">precisa saber que o Desenvolvimento Web é dividido,</p>
+  <p class="resumo">basicamente, em dois grupos: desenvolvimento de front-end e desenvolvimento de back-end.</p>
+  <p class="resumo">Cada um deles possui suas próprias características e apresentam conjuntos distintos de ferramentas e tecnologias.</p>
+  <p class="resumo">Por exemplo, quando mencionamos o desenvolvimento de front-end, o HTML, CSS e Javascript sempre estão relacionados.</p>
+
   <div id="myModal" class="modal">
-    <!-- Conteúdo do modal -->
     <div class="modal-content">
       <span id="close1" class="close">&times;</span>
       <h1 class="texto1">HyperText Markup Language</h1>
@@ -44,7 +32,6 @@
     </div>
   </div>
   <div id="myModal2" class="modal">
-    <!-- Conteúdo do modal -->
     <div class="modal-content">
       <span id="close2" class="close">&times;</span>
       <h1 class="texto1">Cascading Style Sheets</h1>
@@ -55,7 +42,6 @@
     </div>
   </div>
   <div id="myModal3" class="modal">
-    <!-- Conteúdo do modal -->
     <div class="modal-content">
       <span id="close3" class="close">&times;</span>
       <h1 class="texto1">JavaScript</h1>
@@ -65,6 +51,37 @@
         Wide Web</p>
     </div>
   </div>
+
+  <section class="butos">
+    <div class="buto">
+
+      <button id="openModal" class="buto">HTML</button>
+    </div>
+    <div class="buto2">
+
+      <button id="openModal2" class="buto">CSS</button>
+    </div>
+    <div class="buto3">
+
+      <button id="openModal3" class="buto">JAVASCRIPT</button>
+    </div>
+  </section>
+  
+  <div class="container">
+    <div class="square">
+      <h2>HTML</h2>
+      <p>É a base, utilizado para as partes mais simples da página, a partir do HTML que se interliga tanto o "CSS" quanto o "JAVASCRIPT"</p>
+    </div>
+    <div class="square">
+      <h2>CSS</h2>
+      <p>Todo tipo de personalização, desde distancia dos botões, tamanho, a fonte das letras.</p>
+    </div>
+    <div class="square">
+      <h2>JavaScript</h2>
+      <p>O JavaScript foi usado basicamente para fazer os botões funcionarem.</p>
+    </div>
+  </div>
+  
   <script src="main.js"></script>
 </body>
 
